@@ -1,0 +1,49 @@
+{
+  "name": "mangamako",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/francinebc/mangamako",
+  "author": "francine <francinebc.mail@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel ./src/index.html --target browser",
+    "tsc:check": "tsc --noEmit --skipLibCheck"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.3",
+    "@parcel/transformer-image": "^2.0.0-nightly.1981",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-responsive": "^8.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-jest": "^24.3.5",
+    "eslint-plugin-jest-dom": "^3.8.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-testing-library": "^4.0.0",
+    "parcel": "^2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-responsive": "^8.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-test-renderer": "^17.0.2",
+    "sharp": "^0.28.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "targets": {
+    "browser": {
+      "distDir": "dist"
+    }
+  }
+}
