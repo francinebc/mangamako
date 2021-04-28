@@ -1,5 +1,5 @@
 import React from 'react';
-import example from '../images/Mangamako3.jpeg';
+import view from '../images/view.jpeg';
 import {Typography} from '@material-ui/core';
 import {makeStyles, Theme} from '@material-ui/core/styles';
 
@@ -36,12 +36,12 @@ export const HomeScreen: React.FC = () => {
     const classes = useStyles();
     return <div className={classes.root}>
         <div className={classes.imageSection}>
-            <img src={example} className={classes.headerImage}/>
+            <img src={view} className={classes.headerImage}/>
             <Typography variant="h1" className={classes.heading}>Mangamako</Typography>
         </div>
         <div className={classes.flexDescription}>
             <Typography variant="body1" className={classes.description}>
-                Mangamako is a hut in Te Uruwera, about a three hike from the road.
+                Mangamako is a DOC hut in Te Uruwera, about a three hour hike from the road.
                 The track starts in pine forestry full of wild pig, then continues down the mangamako stream to a 6 bedroom hut up a sharp bank.
                 They say a wahine was murdered in a bivvy near the hut, but I didn't see any ghosts.
             </Typography>

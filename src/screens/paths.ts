@@ -1,5 +1,5 @@
 import {HomeScreen} from './HomeScreen';
-import {GalleryScreen} from './GalleryScreen';
+import {GalleryScreenComplete} from './GalleryScreenComplete';
 
 export const PAGES: Page[] = [
     {
@@ -11,7 +11,7 @@ export const PAGES: Page[] = [
     {
         link: '/gallery',
         label: 'Gallery',
-        component: GalleryScreen,
+        component: GalleryScreenComplete,
     },
 ];
 
